@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Agrandir';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Agrandir-NarrowMedium.woff2') format('woff2'),
+       url('../fonts/Agrandir-NarrowMedium.woff') format('woff'),
+       url('../fonts/Agrandir-NarrowMedium.ttf')  format('truetype'),
+       url('../fonts/Agrandir-NarrowMedium.svg#svgFontName') format('svg');
+}
+@font-face {
+  font-family: 'Agrandir';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Agrandir-WideLight.woff2') format('woff2'),
+       url('../fonts/Agrandir-WideLight.woff') format('woff'),
+       url('../fonts/Agrandir-WideLight.ttf')  format('truetype'),
+       url('../fonts/Agrandir-WideLight.svg#svgFontName') format('svg');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500');
+html, body, #app{
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}

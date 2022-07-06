@@ -1,0 +1,24 @@
+{
+  "name": "real-world-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.2.0",
+    "@vimeo/player": "^2.16.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "vue-animate-onscroll": "^1.0.8",
+    "vue-tiny-slider": "^0.1.39"
+  },
+  "devDependencies": {
+    "sass": "^1.37.5",
+    "sass-loader": "^10.2.0"
+  }
+}
