@@ -26,10 +26,10 @@ export default {
         href: './favicon.ico'
       }
     ],
-    script: [
-      {src: '../js/fb.js'},
-      {src: '../js/snap.js'},
-    ]
+    // script: [
+    //   {src: '../js/fb.js'},
+    //   {src: '../js/snap.js'},
+    // ]
   },
 
 
@@ -58,6 +58,7 @@ export default {
   ],
 
   router: {
+    base: '/mdrn-training/',
     mode: 'history',
     extendRoutes(routes, resolve) {
       routes.push({
@@ -69,7 +70,7 @@ export default {
   },
 
   generate: {
-    dir: '../dist_server'
+    dir: './dist'
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
