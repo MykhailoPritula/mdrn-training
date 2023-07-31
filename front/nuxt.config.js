@@ -58,6 +58,7 @@ export default {
   ],
 
   router: {
+    // base: '/',
     base: '/mdrn-training/',
     mode: 'history',
     extendRoutes(routes, resolve) {
